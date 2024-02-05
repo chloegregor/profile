@@ -1,0 +1,73 @@
+html {
+  cursor: url(images/cursor.png), auto;
+}
+
+body {
+  font-family: "Playfair Display";
+  background-image: url(images/gPcAoa6.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+#pic_of_me {
+  width: 70px;
+  border-radius: 50%;
+  margin: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.georgian {
+  color: honeydew;
+}
+
+
+.contenu {
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+  width: 600px;
+}
+
+.card {
+  backdrop-filter: blur(30px);
+  margin: 6px;
+  text-align: center;
+}
+
+.links {
+  backdrop-filter: blur(30px);
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(19, 207, 227);
+  font-family: fantasy;
+}
+
+#flames {
+  position: absolute;
+  left: 70px; bottom: 200px;
+}
+#flames2 {
+  height: 200px;
+  position: absolute;
+  right: 70px; bottom: 90px;
+}
+
+
+
+#pic_of_me:hover {
+  transition: all 0.3s ease-in-out 0s;
+  transform: rotate(360deg);
+  transform:scale(2)
+}
+
+.rotate {
+  animation: rotation 3s infinite linear;
+  transform-origin: 50% 50%;
+}
